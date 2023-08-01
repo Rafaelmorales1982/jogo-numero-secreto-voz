@@ -1,0 +1,77 @@
+/*Exportando fonte do google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+:root {
+  --font-family: "Montserrat", sans-serif; /*pegando a font do link externo*/
+  --bg-color: #330533; /*cor de fundo*/
+  --primary-color: #e8f9fd; /**/
+}
+body {
+  background-color: var(--bg-color); /*puxa do :root*/
+  color: var(--primary-color); /*puxa do :root*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--font-family);/*puxa do root*/
+  
+}
+
+h1 {
+    font-size: 4em; /*4x16 = 64px*/
+}
+
+h3 {
+    font-size: 2em;/*2x16 = 32px*/
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.mensagem {
+    font-size: 1.5em;/*1.5 x 16 = 24px*/
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/*criando uma caixa */
+.box {
+    border: 2px solid var(--primary-color);/*pegando a cor do root*/
+    display: inline-block;/*para dar um espaço interno da caixa*/
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+h2 {
+  font-size: 4em;
+}
+h3{
+  font-size: 4em;
+  
+}
+.numeros{
+  font-size: 2em;
+  color: burlywood;
+  font-weight: bold;
+}
+.titulo {
+  background-color: beige;
+  font-size: 2em;
+  color: #110311;
+  font-weight: 900;
+  margin-bottom: 100px;
+  padding: 30px ;
+}
+
+.btn-jogar {
+  padding: 10px 20px;
+  border: #330533;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+
+}
